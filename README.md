@@ -17,7 +17,7 @@ To access the environment necessary to run the course material, you simply need 
 
 *WARNING*: One disadvantage is that any changes will not be saved on the repository! You will need to save them locally! Also, binder is not always available. 
 
-### Option 2 (semi-advanced): Access on KSU Timur Workstation
+### Option 2 (semi-advanced): Access on KSU's Timur Workstation
 
 You can also get access to KSU's Timur workstation. This will require some knowledge of UNIX/Linux operating systems. The advantage is that this system is fast and should always be available. 
 
