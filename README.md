@@ -7,15 +7,21 @@ Note that the repository is meant to evolve during the semester. Solutions to th
 
 ## Getting started with the repository
 
-### Default Option: Use this if your are unfamiliar with UNIX-like operating systems, git, Python environments, etc.: 
+### Option 1: Use this if your are unfamiliar with UNIX-like operating systems, git, Python environments, etc.: 
 
-This course is taught primarily using this repository, conjunction with Binder: 
+You can launch this repository with Binder, where you can execute the code directly. 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/apapaefs%2Fphys3500k_sp25/HEAD)
 
 To access the environment necessary to run the course material, you simply need to click the link above. This will generate a docker image with the necessary pre-requisites for the course material. It will also load all the files available in the repository.
 
-### Advanced Option: Your own environment
+*WARNING*: One disadvantage is that any changes will not be saved on the repository! You will need to save them locally! Also, binder is not always available. 
+
+### Option 2 (semi-advanced): Access on KSU Timur Workstation
+
+You can also get access to KSU's Timur workstation. This will require some knowledge of UNIX/Linux operating systems. The advantage is that this system is fast and should always be available. 
+
+### Option 3 (advanced): Your own environment
 If you are familiar with git and version control, as well as confident that you can maintain your own Python environment and jupyter, you can go ahead and clone the repository locally: 
 
 ```git clone https://github.com/apapaefs/phys3500k_sp25```
