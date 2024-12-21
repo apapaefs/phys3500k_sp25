@@ -21,6 +21,8 @@ To access the environment necessary to run the course material, you simply need 
 
 You can also get access to KSU's Timur workstation. This will require some knowledge of UNIX/Linux operating systems. The advantage is that this system is fast and should always be available. 
 
+Instructions will be given on how to access this separately.
+
 ### Option 3 (advanced): Your own environment
 If you are familiar with git and version control, as well as confident that you can maintain your own Python environment and jupyter, you can go ahead and clone the repository locally: 
 
