@@ -29,7 +29,7 @@ within the directory of the repository.
 ## Contents:
 
 <details>
-  <summary><a href="https://github.com/apapaefs/phys3500k_sp25/Chapter1/Chapter1.ipynb">Chapter 1: Hello Whimsical World of Pythonic Physics!</a></summary>
+  <summary><a href="https://github.com/apapaefs/phys3500k_sp25/blob/main/Chapter1/Chapter1.ipynb">Chapter 1: Hello Whimsical World of Pythonic Physics!</a></summary>
   
     - Making Computers Obey
         - Machine Language
@@ -63,7 +63,7 @@ within the directory of the repository.
 </details>
 
 <details>
-<summary><a href="https://github.com/apapaefs/phys3500k_sp25/Chapter2/Chapter2.ipynb">Chapter 2: To err is human, to really foul things up requires a computer!</a></summary>
+<summary><a href="https://github.com/apapaefs/phys3500k_sp25/blob/main/Chapter2/Chapter2.ipynb">Chapter 2: To err is human, to really foul things up requires a computer!</a></summary>
 
     - Computer Number Representations
         - Introduction to Computer Number Representations
@@ -77,7 +77,7 @@ within the directory of the repository.
 </details>
 
 <details>
-<summary><a href="https://github.com/apapaefs/phys3500k_sp25/Chapter3/Chapter3.ipynb">Chapter 3: Randomness and Random Walks</a></summary>
+<summary><a href="https://github.com/apapaefs/phys3500k_sp25/blob/main/Chapter3/Chapter3.ipynb">Chapter 3: Randomness and Random Walks</a></summary>
 
     - Deterministic Randomness
     - Random Sequences
@@ -91,7 +91,7 @@ within the directory of the repository.
 </details>
 
 <details>
-<summary><a href="https://github.com/apapaefs/phys3500k_sp25/Chapter4/Chapter4.ipynb">Chapter 4: Numerical Differentiation and Integration</a></summary>
+<summary><a href="https://github.com/apapaefs/phys3500k_sp25/blob/main/Chapter4/Chapter4.ipynb">Chapter 4: Numerical Differentiation and Integration</a></summary>
 
     - Numerical Differentiation
         - Introduction
@@ -111,7 +111,7 @@ within the directory of the repository.
 </details>
 
 <details>
-<summary><a href="https://github.com/apapaefs/phys3500k_sp25/Chapter5/Chapter5.ipynb">Chapter 5: Monte Carlo Methods</a></summary>
+<summary><a href="https://github.com/apapaefs/phys3500k_sp25/blob/main/Chapter5/Chapter5.ipynb">Chapter 5: Monte Carlo Methods</a></summary>
   
     - Introduction
     - The Basic Monte Carlo Strategy
@@ -123,7 +123,7 @@ within the directory of the repository.
 </details>
 
 <details>
-<summary><a href="https://github.com/apapaefs/phys3500k_sp25/Chapter6/Chapter6.ipynb">Chapter 6: Matrix Computing, Trial-and-Error Searching and Data Fitting</a></summary>
+<summary><a href="https://github.com/apapaefs/phys3500k_sp25/blob/main/Chapter6/Chapter6.ipynb">Chapter 6: Matrix Computing, Trial-and-Error Searching and Data Fitting</a></summary>
 
     - Trial and Error Root Finding
         - Introduction
@@ -155,7 +155,7 @@ within the directory of the repository.
 </details>
 
 <details>
-<summary><a href="https://github.com/apapaefs/phys3500k_sp25/Chapter7/Chapter7.ipynb">Chapter 7: Ordinary Differential Equations</a></summary>
+<summary><a href="https://github.com/apapaefs/phys3500k_sp25/blob/main/Chapter7/Chapter7.ipynb">Chapter 7: Ordinary Differential Equations</a></summary>
 
     - Introduction
     - Mathematical Preliminaries
@@ -168,7 +168,7 @@ within the directory of the repository.
 </details>
 
 <details>
-<summary><a href="https://github.com/apapaefs/phys3500k_sp25/Chapter8/Chapter8.ipynb">Chapter 8: An Introduction to Nonlinear Dynamics and Chaos</a></summary>
+<summary><a href="https://github.com/apapaefs/phys3500k_sp25/blob/main/Chapter8/Chapter8.ipynb">Chapter 8: An Introduction to Nonlinear Dynamics and Chaos</a></summary>
 
     - Introduction
     - The Importance of being Nonlinear
@@ -189,7 +189,7 @@ within the directory of the repository.
 </details>
 
 <details>
-<summary><a href="https://github.com/apapaefs/phys3500k_sp25/Chapter8/Chapter9.ipynb">Chapter 9: Boundary Value and Eigenvalue Problems</a></summary>
+<summary><a href="https://github.com/apapaefs/phys3500k_sp25/blob/main/Chapter9/Chapter9.ipynb">Chapter 9: Boundary Value and Eigenvalue Problems</a></summary>
 
     - Introduction
     - The Numerov Algorithm
