@@ -29,7 +29,7 @@ within the directory of the repository.
 ## Contents:
 
 <details>
-  <summary>[Chapter 1: Hello Whimsical World of Pythonic Physics!](Chapter1/Chapter1.ipynb)</summary>
+  <summary>[Chapter 1: Hello Whimsical World of Pythonic Physics!](https://github.com/apapaefs/phys3500k_sp25/Chapter1/Chapter1.ipynb)</summary>
   
     - Making Computers Obey
         - Machine Language
