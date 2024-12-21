@@ -3,7 +3,7 @@
 ## Introduction
 This repository is dedicated to Computational Physics I (PHYS 3500K) at Kennesaw State University. Here, you will find examples and notes pertaining to the course, as well as additional material. 
 
-Note that the repository is meant to evolve during the semester. Solutions to the homework problems will appear in a separate repository: 
+Note that the repository is meant to evolve during the semester. Solutions to the homework problems will appear in a separate repository: https://github.com/apapaefs/phys3500k_sp25_solutions
 
 ## Getting started with the repository
 
@@ -11,7 +11,7 @@ Note that the repository is meant to evolve during the semester. Solutions to th
 
 This course is taught primarily using this repository, conjunction with Binder: 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gl/apapaefs%2Fcompphys/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/apapaefs%2Fphys3500k_sp25/HEAD)
 
 To access the environment necessary to run the course material, you simply need to click the link above. This will generate a docker image with the necessary pre-requisites for the course material. It will also load all the files available in the repository.
 
