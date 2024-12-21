@@ -11,7 +11,7 @@ Note that the repository is meant to evolve during the semester. Solutions to th
 
 You can launch this repository with Binder, where you can execute the code directly. 
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/apapaefs%2Fphys3500k_sp25/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/apapaefs/phys3500k_sp25/HEAD)
 
 To access the environment necessary to run the course material, you simply need to click the link above. This will generate a docker image with the necessary pre-requisites for the course material. It will also load all the files available in the repository.
 
