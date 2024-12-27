@@ -23,7 +23,7 @@ You can also get access to KSU's Timur workstation. This will require some knowl
 
 #### Instructions: 
 
-- First login to the server and clone the repository. Using your terminal: 
+First login to the server and clone the repository. Using your terminal: 
 ```ssh -Y timur.kennesaw.edu```
 (enter username and password) 
 
