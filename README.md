@@ -21,7 +21,44 @@ To access the environment necessary to run the course material, you simply need 
 
 You can also get access to KSU's Timur workstation. This will require some knowledge of UNIX/Linux operating systems. The advantage is that this system is fast and should always be available. 
 
-Instructions will be given on how to access this separately.
+#### Instructions: 
+
+- First login to the server and clone the repository. Using your terminal: 
+```ssh -Y timur.kennesaw.edu```
+(enter username and password) 
+
+In your home directory, clone the repositories: 
+
+```git clone https://github.com/apapaefs/phys3500k_sp25.git```
+
+and 
+
+```git clone https://github.com/apapaefs/phys3500k_sp25_solutions.git```
+
+Whenever you need to synchronize the local versions of the repositories with the remote repository:
+
+```git pull```
+
+Note that if there are changes to the files, then a conflict will be detected. In that case, you can reset the repository by executing:
+
+```git fetch origin```
+```git reset --hard origin/main```
+
+To login to the JupyterHub server:
+
+```ssh -N -f -L 8887:localhost:8000 username@timur.kennesaw.edu```
+
+where ```username``` is your username. You will be asked to enter your password
+
+then navigate with your web browser to:
+
+```localhost:8887```
+
+This will ask you again for your username and password.
+
+Open up a JupyterLab file by double-clicking it. This should load the default kernel, which does not have all the packages installed. To make sure you are  using the right kernel, click on the upper-right corner, and choose “Python (CompPhys)”. 
+
+It is recommended that you create new files to write and test code. 
 
 ### Option 3 (advanced): Your own environment
 If you are familiar with git and version control, as well as confident that you can maintain your own Python environment and jupyter, you can go ahead and clone the repository locally: 
