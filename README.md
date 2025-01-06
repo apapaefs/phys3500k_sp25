@@ -38,8 +38,8 @@ You will also need to have the GlobalProtect VPN for KSU installed, for Windows/
 ##### Accessing Timur: 
 
 First login to the server and clone the repository. Using your terminal: 
-```ssh -Y timur.kennesaw.edu```
-(enter username and password) 
+```ssh -Y username@timur.kennesaw.edu```
+(enter password) 
 
 In your home directory, clone the repositories: 
 
