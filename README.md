@@ -7,7 +7,7 @@ Note that the repository is meant to evolve during the semester. Solutions to th
 
 ## Getting started with the repository
 
-### Option 1: Use this if your are unfamiliar with UNIX-like operating systems, git, Python environments, etc.: 
+### Option 1: Use this if your are unfamiliar with UNIX-like operating systems, git, Python environments, etc. and for BACKUP purposes: 
 
 You can launch this repository with Binder, where you can execute the code directly. 
 
@@ -22,6 +22,20 @@ To access the environment necessary to run the course material, you simply need 
 You can also get access to KSU's Timur workstation. This will require some knowledge of UNIX/Linux operating systems. The advantage is that this system is fast and should always be available. 
 
 #### Instructions: 
+
+##### Pre-requisites: 
+
+First of all, you will need a terminal emulator (https://en.wikipedia.org/wiki/Terminal_emulator).
+
+For the various operating systems: 
+
+- Windows: You will need to install the "Windows Subsystem for Linux" (WSL), see https://learn.microsoft.com/en-us/windows/wsl/install. It is recommended that you install the ubuntu version of this. 
+- MacOS: It comes with a terminal emulator. If you can't find it immediately in your app shortcuts, search for "Terminal" in spotlight. 
+- Linux: You should already have a terminal installed by default! 
+
+You will also need to have the GlobalProtect VPN for KSU installed, for Windows/MacOS see https://uits.kennesaw.edu/vpn/index.php and for Linux see https://hpcdocs.kennesaw.edu/vpn-client/linux/ (the latter has not been tested!). 
+
+##### Accessing Timur: 
 
 First login to the server and clone the repository. Using your terminal: 
 ```ssh -Y timur.kennesaw.edu```
