@@ -62,13 +62,17 @@ To login to the JupyterHub server:
 
 ```ssh -N -f -L 8887:localhost:8000 username@timur.kennesaw.edu```
 
-where ```username``` is your username. You will be asked to enter your password
+where ```username``` is your username. You will be asked to enter your password. If you get an error related to the port ```8887```, try another port, such as ```8888``` or ```7777```.
 
 then navigate with your web browser to:
 
-```localhost:8887```
+```localhost:8887```,
 
-This will ask you again for your username and password.
+(or the appropriate port you attached the remote server to as above). 
+
+This will ask you again for your username and password. If you encounter an error once you reach the page, simply click on the banner and start the server again.
+
+
 
 Open up a JupyterLab file by double-clicking it. This should load the default kernel, which does not have all the packages installed. To make sure you are  using the right kernel, click on the upper-right corner, and choose “Python (CompPhys)”. 
 
