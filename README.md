@@ -37,6 +37,8 @@ You will also need to have the GlobalProtect VPN for KSU installed, for Windows/
 
 ##### Accessing Timur: 
 
+###### Accessing for the first time: 
+
 First login to the server and clone the repository. Using your terminal: 
 ```ssh -Y username@timur.kennesaw.edu```
 (enter password) 
@@ -49,20 +51,27 @@ and
 
 ```git clone https://github.com/apapaefs/phys3500k_sp25_solutions.git```
 
+###### To Synchronize the repositories: 
+
 Whenever you need to synchronize the local versions of the repositories with the remote repository:
+
+After logging into timur via ```ssh -Y username@timur.kennesaw.edu```, change into the directory of the repository you wish to synchronize: 
+
+```cd phys3500k_sp25```
 
 ```git pull```
 
 Note that if there are changes to the files, then a conflict will be detected. In that case, you can reset the repository by executing:
 
-```git fetch origin```
-```git reset --hard origin/main```
+```git stash```
 
-To login to the JupyterHub server:
+###### To login to the JupyterHub server:
+
+If you are not on the KSU network while at KSU, you will first need to use the GlobalProtect VPN.
 
 ```ssh -N -f -L 8887:localhost:8000 username@timur.kennesaw.edu```
 
-where ```username``` is your username. You will be asked to enter your password. If you get an error related to the port ```8887```, try another port, such as ```8888``` or ```7777```.
+where ```username``` is your username. You will be asked to enter your password (this will be hidden, so don't expect any feedback when typing the password). If you get an error related to the port ```8887```, try another port, such as ```8888``` or ```7777```.
 
 then navigate with your web browser to:
 
@@ -70,13 +79,11 @@ then navigate with your web browser to:
 
 (or the appropriate port you attached the remote server to as above). 
 
-This will ask you again for your username and password. If you encounter an error once you reach the page, simply click on the banner and start the server again.
-
-
+This will ask you again for your username and password. If you encounter an error once you reach the page, simply click on the banner (upper left) and start the server again.
 
 Open up a JupyterLab file by double-clicking it. This should load the default kernel, which does not have all the packages installed. To make sure you are  using the right kernel, click on the upper-right corner, and choose “Python (CompPhys)”. 
 
-It is recommended that you create new files to write and test code. 
+It is recommended that you create new files to write and test code. You can always download the files locally before you submit them. 
 
 ### Option 3 (advanced): Your own environment
 If you are familiar with git and version control, as well as confident that you can maintain your own Python environment and jupyter, you can go ahead and clone the repository locally: 
