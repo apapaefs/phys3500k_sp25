@@ -67,13 +67,20 @@ Note that if there are changes to the files, then a conflict will be detected. I
 
 ###### To login to the JupyterHub server:
 
-If you are not on the KSU network while at KSU, you will first need to use the GlobalProtect VPN.
+1. If you are not on the KSU network while at KSU, you will first need to use the GlobalProtect VPN.
+
+2. Open a Terminal *locally* on your computer and create a secure forwarding port by typing:
 
 ```ssh -N -f -L 8887:localhost:8000 username@timur.kennesaw.edu```
 
-where ```username``` is your username. You will be asked to enter your password (this will be hidden, so don't expect any feedback when typing the password). If you get an error related to the port ```8887```, try another port, such as ```8888``` or ```7777```.
+where ```username``` is your username. You will be asked to enter your password 
 
-then navigate with your web browser to:
+Notes: 
+- The password will be hidden, so don't expect any feedback when typing the password.
+- If you get an error related to the port ```8887```, try another port, such as ```8888``` or ```7777```.
+- On Windows, it seems like there is no response after entering the password. Simply keep the terminal open and go to the next step. 
+
+3. then navigate with your web browser to:
 
 ```localhost:8887```,
 
@@ -81,7 +88,7 @@ then navigate with your web browser to:
 
 This will ask you again for your username and password. If you encounter an error once you reach the page, simply click on the banner (upper left) and start the server again.
 
-Open up a JupyterLab file by double-clicking it. This should load the default kernel, which does not have all the packages installed. To make sure you are  using the right kernel, click on the upper-right corner, and choose “Python (CompPhys)”. 
+4. Open up a JupyterLab file by double-clicking it. This should load the default kernel, which does not have all the packages installed. To make sure you are  using the right kernel, click on the upper-right corner, and choose “Python (CompPhys)”. 
 
 It is recommended that you create new files to write and test code. You can always download the files locally before you submit them. 
 
